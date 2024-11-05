@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <title>Oasis</title>
+    <link rel="shortcut icon" href="oasis icon.ico" type="image/x-icon">
+    <link rel=stylesheet href=login.css>
+</head>
+
+<body>
+    <main>
+        <div class=logo>
+            <img src=logo.svg alt=oasis>
+        </div>
+        <div class=login>
+            <div class=login-texto>
+                <h1>OLÁ, SEJA BEM <br> VINDO(A)!</h1>
+                <p>Insira suas informações de registro ou crie sua conta</p>
+            </div>
+            <div class=login-caixas-input>
+                <div class=caixa-input1>
+                    <p>E-mail</p>
+                    <input type=text class=input1 id=email>
+                </div>
+                <div class=caixa-input2>
+                    <p>Senha</p>
+                    <input type=password class=input2 id=senha>
+                </div>
+                <div class=lembra-de-mim>
+                    <div class=lembra-de-mim-esquerda>
+                        <button id="botao" class=botao-lembra-de-mim>
+                            <img id="botao-lembra-de-mim" src=botao-marcar-falso.svg alt>
+                        </button>
+                        <p>Lembre de mim</p>
+                    </div>
+                    <p>Esqueceu a senha?</p>
+                </div>
+                <form action="index home.html" method="get">
+                    <button class=botao-login type="submit">
+                        Login
+                    </button>
+                </form>
+
+                <div class=ou>
+                    <div class=linha1></div>
+                    <p>ou</p>
+                    <div class=linha2></div>
+                </div>
+                <div class=google>
+                    <button class=botao-google>
+                        <img src=google.svg alt=google>
+                        <p>CONTINUE COM GOOGLE</p>
+                    </button>
+                </div>
+                <div class=sem-login>
+                  <form action="index registro.html" method="get">
+                    <button type="submit">
+                        <p>Não tem uma conta? clique aqui para criar.</p>
+                    </button>
+                  </form>
+                </div>
+            </div>
+        </div>
+        <div class=imagem-login>
+            <img src=imagem-login.svg alt=imagem>
+        </div>
+        <script src=login.js></script>
+</body>
+
+</html>

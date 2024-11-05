@@ -1,0 +1,166 @@
+.logo,
+main {
+  height: 1080px;
+}
+.botao-login,
+.lembra-de-mim,
+.ou {
+  margin-top: 30px;
+}
+main {
+  width: 1920px;
+  display: flex;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 100px;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 110px;
+  margin-left: 60px;
+}
+.login-texto {
+  width: 700px;
+}
+.botao-login,
+.input1,
+.input2 {
+  width: 712px;
+  border-radius: 10px;
+}
+.login-texto h1 {
+  color: #000;
+  font-family: "The Next Font";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.login-texto p {
+  color: #000;
+  font-family: "Louis George Cafe";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.google p,
+.sem-login p {
+  font-family: "The Next Font";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.input1,
+.input2 {
+  height: 63px;
+  flex-shrink: 0;
+}
+.login-caixas-input {
+  display: flex;
+  flex-direction: column;
+}
+.lembra-de-mim-esquerda {
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.lembra-de-mim,
+.lembra-de-mim-esquerda {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.lembra-de-mim button {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.lembra-de-mim img
+{
+    width: 22px;
+    height: 22px;
+}
+.botao-login {
+  color: #fff;
+  font-family: "The Next Font";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 58px;
+  flex-shrink: 0;
+  background: linear-gradient(90deg, #741979 0, #420e45 50%, #a424ab 100%);
+}
+.linha1,
+.linha2 {
+  width: 309px;
+  height: 1px;
+  background: #420e45;
+}
+.ou {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.google,
+.google button {
+  width: 712px;
+  height: 63px;
+  flex-shrink: 0;
+}
+.google button {
+  border-radius: 3px;
+  border: 1px solid var(--roxo-chok, #420e45);
+  background-color: #fff;
+}
+.google p {
+  color: #000;
+}
+.google img {
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+}
+.botao-google {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sem-login {
+  margin-top: 15px;
+}
+.sem-login button {
+  width: 712px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: var(--Amarelo, #ecc46f);
+}
+.sem-login p {
+  color: #fff;
+}
+.imagem-login {
+  width: 850px;
+  height: 1049px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: url(<path-to-image>) 50% / cover no-repeat #d3d3d3;
+}
