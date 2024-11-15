@@ -1,17 +1,18 @@
-.logo,
-main {
-  height: 1080px;
-}
+
 .botao-login,
 .lembra-de-mim,
 .ou {
   margin-top: 30px;
 }
+
 main {
-  width: 1920px;
-  display: flex;
-  flex-direction: row-reverse;
-}
+    width: 100vh;
+    max-width: 1920px;
+    height: 100vh;
+    max-height: 1080px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
 body {
   display: flex;
   align-items: center;
