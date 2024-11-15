@@ -5,12 +5,12 @@ let contador = 1;
 function caixinha()
 {
  if(contador == 1){
-    caixaMarcar.src = 'imagens/botao-marcar.svg';
+    caixaMarcar.src = '../imagens/botao-marcar.svg';
 contador = 0;
 }
 else
 {
-caixaMarcar.src = 'imagens/botao-marcar-falso.svg';
+caixaMarcar.src = '../imagens/botao-marcar-falso.svg';
 contador = 1;
 }
 }

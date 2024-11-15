@@ -151,6 +151,10 @@ display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
+a
+{
+  text-decoration: none;
+}
 .sem-login {
   margin-top: 15px;
 }
