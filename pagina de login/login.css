@@ -1,25 +1,28 @@
-
-main {
-  width: 100vh;
-  max-width: 1920px;
-  height: 100vh;
-  max-height: 1080px;
-  display: flex;
-}
-.botao-login,
-.lembra-de-mim,
-.ou {
-  margin-top: 30px;
-}
-main {
-  width: 1920px;
-
+html
+{
+  height: 1080px;
 }
 body {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+main{
+  width: 1920px;
+height: 1080px;
+
+max-width: 1920px;
+
+max-height: 1080px;
+display: flex;
+}
+.botao-login,
+.lembra-de-mim,
+.ou {
+  margin-top: 30px;
+}
+
+
 .logo {
   width: 100px;
 }
@@ -161,10 +164,9 @@ body {
 .sem-login p {
   color: #fff;
 }
-.imagem-login {
-  width: 850px;
-  height: 1049px;
-  flex-shrink: 0;
-  border-radius: 30px;
-  background: url(<path-to-image>) 50% / cover no-repeat #d3d3d3;
+
+#imagem-login
+{
+  width: 700px;
+    height: 900px;
 }
